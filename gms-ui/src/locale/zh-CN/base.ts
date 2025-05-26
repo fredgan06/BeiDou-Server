@@ -1,5 +1,5 @@
 export default {
-  'title': '北斗',
+  'title': '开心',
   'operation': '操作',
 
   'button.load': '加载',
