@@ -337,7 +337,7 @@ public final class PlayerLoggedinHandler extends AbstractPacketHandler {
             //展示服务信息
             noteService.show(player);
             //异常地图掉线信息提示
-            // c.getSysRescue().showMapChangeMessage();
+            c.getSysRescue().showMapChangeMessage();
 
             if (player.getParty() != null) {
                 PartyCharacter pchar = player.getMPC();
