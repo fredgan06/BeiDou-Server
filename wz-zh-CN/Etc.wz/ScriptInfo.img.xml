@@ -7,10 +7,10 @@
   <string name="refine_sleepy" value="I heard that you can make some items..."/>
   <string name="carlie" value="I would like to exchange..."/>
   <string name="oldBook1" value="Say &quot;Hi&quot; to Alcaster..."/>
-  <string name="fighter" value="I&apos;d like to know more about the warrior"/>
-  <string name="magician" value="I&apos;d like to know more about the magician"/>
-  <string name="bowman" value="I&apos;d like to know more about the bowman"/>
-  <string name="rogue" value="I&apos;d like to know more about the thief"/>
+  <string name="fighter" value="我想了解关于二转的问题..."/>
+  <string name="magician" value="我想了解关于二转的问题..."/>
+  <string name="bowman" value="我想了解关于二转的问题..."/>
+  <string name="rogue" value="我想了解关于二转的问题..."/>
   <string name="Event01" value="Opening the Magic Box"/>
   <string name="ludi023" value="The Dollhouse"/>
   <string name="oldBook2" value="Finding the Ancient Book..."/>

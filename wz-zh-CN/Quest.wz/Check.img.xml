@@ -76381,19 +76381,6 @@
             <int name="npc" value="1061005"/>
         </imgdir>
     </imgdir>
-    <imgdir name="30000">
-        <imgdir name="0">
-            <string name="startscript" value="q30000s"/>
-            <int name="npc" value="9900001"/>
-            <int name="lvmin" value="0"/>
-            <int name="lvmax" value="10"/>
-            <int name="normalAutoStart" value="1"/>
-        </imgdir>
-        <imgdir name="1">
-            <string name="endscript" value="q30000e"/>
-            <int name="npc" value="2104"/>
-        </imgdir>
-    </imgdir>
     <imgdir name="30001">
         <imgdir name="0">
             <string name="startscript" value="q30001s"/>

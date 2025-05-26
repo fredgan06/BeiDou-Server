@@ -44,13 +44,13 @@
           <a-popover placement="top">
             <template #content>
               <span>{{
-                record.itemId === 2430033 ? '开心卫星指导书' : record.itemName
+                record.itemId === 2430033 ? '乐乐指导书' : record.itemName
               }}</span>
             </template>
             <img
               v-if="record.itemId === 2430033"
               :src="beidouBook"
-              alt="开心卫星指导书"
+              alt="乐乐指导书"
             />
             <img v-else :src="getIconUrl('item', record.itemId)" />
           </a-popover>

@@ -1,5 +1,5 @@
 export default {
-  'title': '开心',
+  'title': '乐乐枫之谷',
   'operation': '操作',
 
   'button.load': '加载',
