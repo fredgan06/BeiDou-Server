@@ -1,0 +1,29 @@
+点券
+    cm.getPlayer().getCashShop().gainCash(1, -1000);
+    cm.getPlayer().getCashShop().gainCash(1, 1000);
+
+抵用券
+    cm.getPlayer().getCashShop().gainCash(2, -1000);
+    cm.getPlayer().getCashShop().gainCash(2, 1000);
+
+信用券
+    cm.getPlayer().getCashShop().gainCash(4, -1000);
+    cm.getPlayer().getCashShop().gainCash(4, 1000);
+
+金币
+    cm.gainMeso(-10000000);
+
+道具
+    cm.gainItem(2000000, 100);//红色药水(2000000),100个
+    cm.getItemQuantity(4001363);//获取道具数量
+
+装备
+    cm.gainEquip(int itemId, Short attStr, Short attDex, Short attInt, Short attLuk, Short attHp, Short attMp,
+                          Short pAtk, Short mAtk, Short pDef, Short mDef, Short acc, Short avoid, Short hands, Short speed,
+                          Short jump, Byte upgradeSlot, Long expireTime);
+
+人气
+    cm.gainFame(10);
+
+经验
+    cm.gainExp(500);

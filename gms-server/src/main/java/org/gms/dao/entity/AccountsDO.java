@@ -46,10 +46,10 @@ public class AccountsDO implements Serializable {
 
     private Integer loggedin;
 
-    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
     private Timestamp lastlogin;
 
-    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
     private Timestamp createdat;
 
     @JsonFormat(pattern = "yyyy-MM-dd")
@@ -74,7 +74,7 @@ public class AccountsDO implements Serializable {
 
     private Integer gender;
 
-    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
     private Timestamp tempban;
 
     private Integer greason;
