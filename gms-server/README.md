@@ -10,3 +10,5 @@ mysql库的show view权限
 ### idea 配置
 
 如果是直接打开的Cosmic目录运行，需要在server的编译配置里设置 Working directory 为 gms-server
+
+111
